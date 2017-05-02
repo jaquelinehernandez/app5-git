@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?> 
- 
- <widget xmlns="http://www.w3.org/ns/widgets"
- xmlns:gap="http://phonegap.com/ns/1.0"
- id ="com.phonegap.example5"
- version ="1.0.0">
- 
- <name> app5 Advertencia de dispositivos </name>
+<?xml version="1.0" encoding="utf-8"?>
 
-<drescription>
-Aplicacion que realiza la vibracion y el beep del dispocitivo 
-</drescription> 
+<widget xmlns="http://www.w3.org/ns/widgets"
+xmlns:gap="http://phonegap.com/ns/1.0"
+id="com.phonegap.example!"
+version="1.0.0">
 
-<author href="https://buil.phonegap.com"email="jaqueline.hernandez.cbtis16@gmail.com">
-Jaqueline Hernandez Romero
+<name> app5 advertencia del dispocitivo</name>
+
+<description>
+Aplicacion que que realiza la vibracion y beep del dispocitivo
+</description>
+
+<author href="https://build.phonegap.com" email="jaqueline.hernandez.cbtis16@gmail.com">
+jaqueline hernández romero 4 g
 </author>
 
 <!--Personaiza la aplicacion y plataforma-->
@@ -27,11 +27,18 @@ Jaqueline Hernandez Romero
 <!--Plugins-->
 <!--Core plugins-->
 <plugin name="cordova-plugin-device" spec="~1.1.4"/>
-<plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
-<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+<plugin name="cordova-plugin-vibration" spec="*2.1.3"/>
+<plugin name="cordova-plugin-dialogs" spec="*1.3.1"/>
 
 <!--<plugin name="cordova-plugin-geolocation"source="npm"/>-->
 <!--Third party plugins-->
+
+<!--para accesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!--Colocar icono app-->
 
